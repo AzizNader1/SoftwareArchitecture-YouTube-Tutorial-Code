@@ -177,4 +177,6 @@ W:\Software Projects\My Projects\Learning Projects\SoftwareArchitecture-YouTube-
 W:\Software Projects\My Projects\Learning Projects\SoftwareArchitecture-YouTube-Tutorial-Code\ECommerce\ECommerce.API\obj\Debug\net10.0\ECommerce.API.pdb
 W:\Software Projects\My Projects\Learning Projects\SoftwareArchitecture-YouTube-Tutorial-Code\ECommerce\ECommerce.API\obj\Debug\net10.0\ECommerce.API.genruntimeconfig.cache
 W:\Software Projects\My Projects\Learning Projects\SoftwareArchitecture-YouTube-Tutorial-Code\ECommerce\ECommerce.API\obj\Debug\net10.0\ref\ECommerce.API.dll
+W:\Software Projects\My Projects\Learning Projects\SoftwareArchitecture-YouTube-Tutorial-Code\ECommerce\ECommerce.API\obj\Debug\net10.0\ECommerce.API.sourcelink.json
+W:\Software Projects\My Projects\Learning Projects\SoftwareArchitecture-YouTube-Tutorial-Code\ECommerce\ECommerce.API\bin\Debug\net10.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
 W:\Software Projects\My Projects\Learning Projects\SoftwareArchitecture-YouTube-Tutorial-Code\ECommerce\ECommerce.API\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt

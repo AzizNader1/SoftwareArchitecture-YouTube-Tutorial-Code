@@ -3,56 +3,68 @@
   "WorkspaceRootPath": "W:\\Software Projects\\My Projects\\Learning Projects\\SoftwareArchitecture-YouTube-Tutorial-Code\\ECommerce\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{17F99BF9-7DFE-F3DF-8AF8-E1F96903B5E4}|ECommerce.Domain\\ECommerce.Domain.csproj|w:\\software projects\\my projects\\learning projects\\softwarearchitecture-youtube-tutorial-code\\ecommerce\\ecommerce.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17F99BF9-7DFE-F3DF-8AF8-E1F96903B5E4}|ECommerce.Domain\\ECommerce.Domain.csproj|solutionrelative:ecommerce.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FD4C1BBB-E0EB-4FDD-E1E3-C842D826F36B}|ECommerce.Application\\ECommerce.Application.csproj|w:\\software projects\\my projects\\learning projects\\softwarearchitecture-youtube-tutorial-code\\ecommerce\\ecommerce.application\\usecases\\product\\queries\\getallproducts\\getallproductsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD4C1BBB-E0EB-4FDD-E1E3-C842D826F36B}|ECommerce.Application\\ECommerce.Application.csproj|solutionrelative:ecommerce.application\\usecases\\product\\queries\\getallproducts\\getallproductsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17F99BF9-7DFE-F3DF-8AF8-E1F96903B5E4}|ECommerce.Domain\\ECommerce.Domain.csproj|w:\\software projects\\my projects\\learning projects\\softwarearchitecture-youtube-tutorial-code\\ecommerce\\ecommerce.domain\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17F99BF9-7DFE-F3DF-8AF8-E1F96903B5E4}|ECommerce.Domain\\ECommerce.Domain.csproj|solutionrelative:ecommerce.domain\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FD4C1BBB-E0EB-4FDD-E1E3-C842D826F36B}|ECommerce.Application\\ECommerce.Application.csproj|w:\\software projects\\my projects\\learning projects\\softwarearchitecture-youtube-tutorial-code\\ecommerce\\ecommerce.application\\usecases\\product\\queries\\getallproducts\\getallproductsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD4C1BBB-E0EB-4FDD-E1E3-C842D826F36B}|ECommerce.Application\\ECommerce.Application.csproj|solutionrelative:ecommerce.application\\usecases\\product\\queries\\getallproducts\\getallproductsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17F99BF9-7DFE-F3DF-8AF8-E1F96903B5E4}|ECommerce.Domain\\ECommerce.Domain.csproj|w:\\software projects\\my projects\\learning projects\\softwarearchitecture-youtube-tutorial-code\\ecommerce\\ecommerce.domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17F99BF9-7DFE-F3DF-8AF8-E1F96903B5E4}|ECommerce.Domain\\ECommerce.Domain.csproj|solutionrelative:ecommerce.domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FD4C1BBB-E0EB-4FDD-E1E3-C842D826F36B}|ECommerce.Application\\ECommerce.Application.csproj|w:\\software projects\\my projects\\learning projects\\softwarearchitecture-youtube-tutorial-code\\ecommerce\\ecommerce.application\\usecases\\category\\commands\\createcategory\\createcategorycommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD4C1BBB-E0EB-4FDD-E1E3-C842D826F36B}|ECommerce.Application\\ECommerce.Application.csproj|solutionrelative:ecommerce.application\\usecases\\category\\commands\\createcategory\\createcategorycommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17F99BF9-7DFE-F3DF-8AF8-E1F96903B5E4}|ECommerce.Domain\\ECommerce.Domain.csproj|w:\\software projects\\my projects\\learning projects\\softwarearchitecture-youtube-tutorial-code\\ecommerce\\ecommerce.domain\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17F99BF9-7DFE-F3DF-8AF8-E1F96903B5E4}|ECommerce.Domain\\ECommerce.Domain.csproj|solutionrelative:ecommerce.domain\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FD4C1BBB-E0EB-4FDD-E1E3-C842D826F36B}|ECommerce.Application\\ECommerce.Application.csproj|w:\\software projects\\my projects\\learning projects\\softwarearchitecture-youtube-tutorial-code\\ecommerce\\ecommerce.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD4C1BBB-E0EB-4FDD-E1E3-C842D826F36B}|ECommerce.Application\\ECommerce.Application.csproj|solutionrelative:ecommerce.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17F99BF9-7DFE-F3DF-8AF8-E1F96903B5E4}|ECommerce.Domain\\ECommerce.Domain.csproj|w:\\software projects\\my projects\\learning projects\\softwarearchitecture-youtube-tutorial-code\\ecommerce\\ecommerce.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17F99BF9-7DFE-F3DF-8AF8-E1F96903B5E4}|ECommerce.Domain\\ECommerce.Domain.csproj|solutionrelative:ecommerce.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FD4C1BBB-E0EB-4FDD-E1E3-C842D826F36B}|ECommerce.Application\\ECommerce.Application.csproj|w:\\software projects\\my projects\\learning projects\\softwarearchitecture-youtube-tutorial-code\\ecommerce\\ecommerce.application\\usecases\\category\\commands\\createcategory\\createcategorycommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD4C1BBB-E0EB-4FDD-E1E3-C842D826F36B}|ECommerce.Application\\ECommerce.Application.csproj|solutionrelative:ecommerce.application\\usecases\\category\\commands\\createcategory\\createcategorycommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17F99BF9-7DFE-F3DF-8AF8-E1F96903B5E4}|ECommerce.Domain\\ECommerce.Domain.csproj|w:\\software projects\\my projects\\learning projects\\softwarearchitecture-youtube-tutorial-code\\ecommerce\\ecommerce.domain\\enums\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17F99BF9-7DFE-F3DF-8AF8-E1F96903B5E4}|ECommerce.Domain\\ECommerce.Domain.csproj|solutionrelative:ecommerce.domain\\enums\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FD4C1BBB-E0EB-4FDD-E1E3-C842D826F36B}|ECommerce.Application\\ECommerce.Application.csproj|w:\\software projects\\my projects\\learning projects\\softwarearchitecture-youtube-tutorial-code\\ecommerce\\ecommerce.application\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD4C1BBB-E0EB-4FDD-E1E3-C842D826F36B}|ECommerce.Application\\ECommerce.Application.csproj|solutionrelative:ecommerce.application\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17F99BF9-7DFE-F3DF-8AF8-E1F96903B5E4}|ECommerce.Domain\\ECommerce.Domain.csproj|w:\\software projects\\my projects\\learning projects\\softwarearchitecture-youtube-tutorial-code\\ecommerce\\ecommerce.domain\\valueobjects\\money.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17F99BF9-7DFE-F3DF-8AF8-E1F96903B5E4}|ECommerce.Domain\\ECommerce.Domain.csproj|solutionrelative:ecommerce.domain\\valueobjects\\money.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FD4C1BBB-E0EB-4FDD-E1E3-C842D826F36B}|ECommerce.Application\\ECommerce.Application.csproj|w:\\software projects\\my projects\\learning projects\\softwarearchitecture-youtube-tutorial-code\\ecommerce\\ecommerce.application\\usecases\\product\\queries\\getproductbyid\\getproductbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD4C1BBB-E0EB-4FDD-E1E3-C842D826F36B}|ECommerce.Application\\ECommerce.Application.csproj|solutionrelative:ecommerce.application\\usecases\\product\\queries\\getproductbyid\\getproductbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17F99BF9-7DFE-F3DF-8AF8-E1F96903B5E4}|ECommerce.Domain\\ECommerce.Domain.csproj|w:\\software projects\\my projects\\learning projects\\softwarearchitecture-youtube-tutorial-code\\ecommerce\\ecommerce.domain\\common\\domainexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17F99BF9-7DFE-F3DF-8AF8-E1F96903B5E4}|ECommerce.Domain\\ECommerce.Domain.csproj|solutionrelative:ecommerce.domain\\common\\domainexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FD4C1BBB-E0EB-4FDD-E1E3-C842D826F36B}|ECommerce.Application\\ECommerce.Application.csproj|w:\\software projects\\my projects\\learning projects\\softwarearchitecture-youtube-tutorial-code\\ecommerce\\ecommerce.application\\usecases\\product\\queries\\getproductbyid\\getproductbyidqueryvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD4C1BBB-E0EB-4FDD-E1E3-C842D826F36B}|ECommerce.Application\\ECommerce.Application.csproj|solutionrelative:ecommerce.application\\usecases\\product\\queries\\getproductbyid\\getproductbyidqueryvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17F99BF9-7DFE-F3DF-8AF8-E1F96903B5E4}|ECommerce.Domain\\ECommerce.Domain.csproj|w:\\software projects\\my projects\\learning projects\\softwarearchitecture-youtube-tutorial-code\\ecommerce\\ecommerce.domain\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17F99BF9-7DFE-F3DF-8AF8-E1F96903B5E4}|ECommerce.Domain\\ECommerce.Domain.csproj|solutionrelative:ecommerce.domain\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FD4C1BBB-E0EB-4FDD-E1E3-C842D826F36B}|ECommerce.Application\\ECommerce.Application.csproj|w:\\software projects\\my projects\\learning projects\\softwarearchitecture-youtube-tutorial-code\\ecommerce\\ecommerce.application\\usecases\\product\\queries\\getproductbyid\\getproductbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD4C1BBB-E0EB-4FDD-E1E3-C842D826F36B}|ECommerce.Application\\ECommerce.Application.csproj|solutionrelative:ecommerce.application\\usecases\\product\\queries\\getproductbyid\\getproductbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|W:\\Software Projects\\My Projects\\Learning Projects\\SoftwareArchitecture-YouTube-Tutorial-Code\\ECommerce\\ECommerse.API\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ECommerse.API\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FD4C1BBB-E0EB-4FDD-E1E3-C842D826F36B}|ECommerce.Application\\ECommerce.Application.csproj|w:\\software projects\\my projects\\learning projects\\softwarearchitecture-youtube-tutorial-code\\ecommerce\\ecommerce.application\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD4C1BBB-E0EB-4FDD-E1E3-C842D826F36B}|ECommerce.Application\\ECommerce.Application.csproj|solutionrelative:ecommerce.application\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|W:\\Software Projects\\My Projects\\Learning Projects\\SoftwareArchitecture-YouTube-Tutorial-Code\\ECommerce\\ECommerse.API\\ECommerce.API.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ECommerse.API\\ECommerce.API.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{FD4C1BBB-E0EB-4FDD-E1E3-C842D826F36B}|ECommerce.Application\\ECommerce.Application.csproj|w:\\software projects\\my projects\\learning projects\\softwarearchitecture-youtube-tutorial-code\\ecommerce\\ecommerce.application\\usecases\\product\\commands\\createproduct\\createproductcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD4C1BBB-E0EB-4FDD-E1E3-C842D826F36B}|ECommerce.Application\\ECommerce.Application.csproj|solutionrelative:ecommerce.application\\usecases\\product\\commands\\createproduct\\createproductcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|W:\\Software Projects\\My Projects\\Learning Projects\\SoftwareArchitecture-YouTube-Tutorial-Code\\ECommerce\\ECommerse.API\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ECommerse.API\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FD4C1BBB-E0EB-4FDD-E1E3-C842D826F36B}|ECommerce.Application\\ECommerce.Application.csproj|w:\\software projects\\my projects\\learning projects\\softwarearchitecture-youtube-tutorial-code\\ecommerce\\ecommerce.application\\usecases\\product\\commands\\createproduct\\createproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD4C1BBB-E0EB-4FDD-E1E3-C842D826F36B}|ECommerce.Application\\ECommerce.Application.csproj|solutionrelative:ecommerce.application\\usecases\\product\\commands\\createproduct\\createproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|W:\\Software Projects\\My Projects\\Learning Projects\\SoftwareArchitecture-YouTube-Tutorial-Code\\ECommerce\\ECommerse.API\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ECommerse.API\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{FD4C1BBB-E0EB-4FDD-E1E3-C842D826F36B}|ECommerce.Application\\ECommerce.Application.csproj|w:\\software projects\\my projects\\learning projects\\softwarearchitecture-youtube-tutorial-code\\ecommerce\\ecommerce.application\\usecases\\product\\commands\\createproduct\\createproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD4C1BBB-E0EB-4FDD-E1E3-C842D826F36B}|ECommerce.Application\\ECommerce.Application.csproj|solutionrelative:ecommerce.application\\usecases\\product\\commands\\createproduct\\createproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD4C1BBB-E0EB-4FDD-E1E3-C842D826F36B}|ECommerce.Application\\ECommerce.Application.csproj|w:\\software projects\\my projects\\learning projects\\softwarearchitecture-youtube-tutorial-code\\ecommerce\\ecommerce.application\\dtos\\productdtos\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD4C1BBB-E0EB-4FDD-E1E3-C842D826F36B}|ECommerce.Application\\ECommerce.Application.csproj|solutionrelative:ecommerce.application\\dtos\\productdtos\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD4C1BBB-E0EB-4FDD-E1E3-C842D826F36B}|ECommerce.Application\\ECommerce.Application.csproj|w:\\software projects\\my projects\\learning projects\\softwarearchitecture-youtube-tutorial-code\\ecommerce\\ecommerce.application\\dtos\\productdtos\\updateproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD4C1BBB-E0EB-4FDD-E1E3-C842D826F36B}|ECommerce.Application\\ECommerce.Application.csproj|solutionrelative:ecommerce.application\\dtos\\productdtos\\updateproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD4C1BBB-E0EB-4FDD-E1E3-C842D826F36B}|ECommerce.Application\\ECommerce.Application.csproj|w:\\software projects\\my projects\\learning projects\\softwarearchitecture-youtube-tutorial-code\\ecommerce\\ecommerce.application\\dtos\\productdtos\\getproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD4C1BBB-E0EB-4FDD-E1E3-C842D826F36B}|ECommerce.Application\\ECommerce.Application.csproj|solutionrelative:ecommerce.application\\dtos\\productdtos\\getproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,167 +82,211 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "OrderItem.cs",
-              "DocumentMoniker": "W:\\Software Projects\\My Projects\\Learning Projects\\SoftwareArchitecture-YouTube-Tutorial-Code\\ECommerce\\ECommerce.Domain\\Entities\\OrderItem.cs",
-              "RelativeDocumentMoniker": "ECommerce.Domain\\Entities\\OrderItem.cs",
-              "ToolTip": "W:\\Software Projects\\My Projects\\Learning Projects\\SoftwareArchitecture-YouTube-Tutorial-Code\\ECommerce\\ECommerce.Domain\\Entities\\OrderItem.cs",
-              "RelativeToolTip": "ECommerce.Domain\\Entities\\OrderItem.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAwwAwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "CreateCategoryCommandValidator.cs",
+              "DocumentMoniker": "W:\\Software Projects\\My Projects\\Learning Projects\\SoftwareArchitecture-YouTube-Tutorial-Code\\ECommerce\\ECommerce.Application\\UseCases\\Category\\Commands\\CreateCategory\\CreateCategoryCommandValidator.cs",
+              "RelativeDocumentMoniker": "ECommerce.Application\\UseCases\\Category\\Commands\\CreateCategory\\CreateCategoryCommandValidator.cs",
+              "ToolTip": "W:\\Software Projects\\My Projects\\Learning Projects\\SoftwareArchitecture-YouTube-Tutorial-Code\\ECommerce\\ECommerce.Application\\UseCases\\Category\\Commands\\CreateCategory\\CreateCategoryCommandValidator.cs",
+              "RelativeToolTip": "ECommerce.Application\\UseCases\\Category\\Commands\\CreateCategory\\CreateCategoryCommandValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-20T15:14:00.047Z",
+              "WhenOpened": "2026-11-23T14:58:20.1Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "W:\\Software Projects\\My Projects\\Learning Projects\\SoftwareArchitecture-YouTube-Tutorial-Code\\ECommerce\\ECommerce.Domain\\Entities\\Customer.cs",
-              "RelativeDocumentMoniker": "ECommerce.Domain\\Entities\\Customer.cs",
-              "ToolTip": "W:\\Software Projects\\My Projects\\Learning Projects\\SoftwareArchitecture-YouTube-Tutorial-Code\\ECommerce\\ECommerce.Domain\\Entities\\Customer.cs",
-              "RelativeToolTip": "ECommerce.Domain\\Entities\\Customer.cs",
-              "ViewState": "AgIAAGIAAAAAAAAAAAAswA4AAAAAAAAAAAAAAA==",
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "W:\\Software Projects\\My Projects\\Learning Projects\\SoftwareArchitecture-YouTube-Tutorial-Code\\ECommerce\\ECommerce.Application\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "ECommerce.Application\\DependencyInjection.cs",
+              "ToolTip": "W:\\Software Projects\\My Projects\\Learning Projects\\SoftwareArchitecture-YouTube-Tutorial-Code\\ECommerce\\ECommerce.Application\\DependencyInjection.cs",
+              "RelativeToolTip": "ECommerce.Application\\DependencyInjection.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-20T15:12:26.641Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Order.cs",
-              "DocumentMoniker": "W:\\Software Projects\\My Projects\\Learning Projects\\SoftwareArchitecture-YouTube-Tutorial-Code\\ECommerce\\ECommerce.Domain\\Entities\\Order.cs",
-              "RelativeDocumentMoniker": "ECommerce.Domain\\Entities\\Order.cs",
-              "ToolTip": "W:\\Software Projects\\My Projects\\Learning Projects\\SoftwareArchitecture-YouTube-Tutorial-Code\\ECommerce\\ECommerce.Domain\\Entities\\Order.cs",
-              "RelativeToolTip": "ECommerce.Domain\\Entities\\Order.cs",
-              "ViewState": "AgIAAIAAAAAAAAAAAAAswAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-20T15:10:41.915Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Product.cs",
-              "DocumentMoniker": "W:\\Software Projects\\My Projects\\Learning Projects\\SoftwareArchitecture-YouTube-Tutorial-Code\\ECommerce\\ECommerce.Domain\\Entities\\Product.cs",
-              "RelativeDocumentMoniker": "ECommerce.Domain\\Entities\\Product.cs",
-              "ToolTip": "W:\\Software Projects\\My Projects\\Learning Projects\\SoftwareArchitecture-YouTube-Tutorial-Code\\ECommerce\\ECommerce.Domain\\Entities\\Product.cs",
-              "RelativeToolTip": "ECommerce.Domain\\Entities\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-20T15:05:26.666Z",
+              "WhenOpened": "2026-11-23T14:54:42.395Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Category.cs",
-              "DocumentMoniker": "W:\\Software Projects\\My Projects\\Learning Projects\\SoftwareArchitecture-YouTube-Tutorial-Code\\ECommerce\\ECommerce.Domain\\Entities\\Category.cs",
-              "RelativeDocumentMoniker": "ECommerce.Domain\\Entities\\Category.cs",
-              "ToolTip": "W:\\Software Projects\\My Projects\\Learning Projects\\SoftwareArchitecture-YouTube-Tutorial-Code\\ECommerce\\ECommerce.Domain\\Entities\\Category.cs",
-              "RelativeToolTip": "ECommerce.Domain\\Entities\\Category.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAAAAcAAAAtAAAAAAAAAA==",
+              "Title": "CreateCategoryCommandHandler.cs",
+              "DocumentMoniker": "W:\\Software Projects\\My Projects\\Learning Projects\\SoftwareArchitecture-YouTube-Tutorial-Code\\ECommerce\\ECommerce.Application\\UseCases\\Category\\Commands\\CreateCategory\\CreateCategoryCommandHandler.cs",
+              "RelativeDocumentMoniker": "ECommerce.Application\\UseCases\\Category\\Commands\\CreateCategory\\CreateCategoryCommandHandler.cs",
+              "ToolTip": "W:\\Software Projects\\My Projects\\Learning Projects\\SoftwareArchitecture-YouTube-Tutorial-Code\\ECommerce\\ECommerce.Application\\UseCases\\Category\\Commands\\CreateCategory\\CreateCategoryCommandHandler.cs",
+              "RelativeToolTip": "ECommerce.Application\\UseCases\\Category\\Commands\\CreateCategory\\CreateCategoryCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-20T14:59:46.333Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Money.cs",
-              "DocumentMoniker": "W:\\Software Projects\\My Projects\\Learning Projects\\SoftwareArchitecture-YouTube-Tutorial-Code\\ECommerce\\ECommerce.Domain\\ValueObjects\\Money.cs",
-              "RelativeDocumentMoniker": "ECommerce.Domain\\ValueObjects\\Money.cs",
-              "ToolTip": "W:\\Software Projects\\My Projects\\Learning Projects\\SoftwareArchitecture-YouTube-Tutorial-Code\\ECommerce\\ECommerce.Domain\\ValueObjects\\Money.cs",
-              "RelativeToolTip": "ECommerce.Domain\\ValueObjects\\Money.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-20T14:54:03.709Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "OrderStatus.cs",
-              "DocumentMoniker": "W:\\Software Projects\\My Projects\\Learning Projects\\SoftwareArchitecture-YouTube-Tutorial-Code\\ECommerce\\ECommerce.Domain\\Enums\\OrderStatus.cs",
-              "RelativeDocumentMoniker": "ECommerce.Domain\\Enums\\OrderStatus.cs",
-              "ToolTip": "W:\\Software Projects\\My Projects\\Learning Projects\\SoftwareArchitecture-YouTube-Tutorial-Code\\ECommerce\\ECommerce.Domain\\Enums\\OrderStatus.cs",
-              "RelativeToolTip": "ECommerce.Domain\\Enums\\OrderStatus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAQwAQAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-20T14:43:12.778Z",
+              "WhenOpened": "2026-11-23T14:53:43.95Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "DomainException.cs",
-              "DocumentMoniker": "W:\\Software Projects\\My Projects\\Learning Projects\\SoftwareArchitecture-YouTube-Tutorial-Code\\ECommerce\\ECommerce.Domain\\Common\\DomainException.cs",
-              "RelativeDocumentMoniker": "ECommerce.Domain\\Common\\DomainException.cs",
-              "ToolTip": "W:\\Software Projects\\My Projects\\Learning Projects\\SoftwareArchitecture-YouTube-Tutorial-Code\\ECommerce\\ECommerce.Domain\\Common\\DomainException.cs",
-              "RelativeToolTip": "ECommerce.Domain\\Common\\DomainException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Title": "GetProductByIdQueryValidator.cs",
+              "DocumentMoniker": "W:\\Software Projects\\My Projects\\Learning Projects\\SoftwareArchitecture-YouTube-Tutorial-Code\\ECommerce\\ECommerce.Application\\UseCases\\Product\\Queries\\GetProductById\\GetProductByIdQueryValidator.cs",
+              "RelativeDocumentMoniker": "ECommerce.Application\\UseCases\\Product\\Queries\\GetProductById\\GetProductByIdQueryValidator.cs",
+              "ToolTip": "W:\\Software Projects\\My Projects\\Learning Projects\\SoftwareArchitecture-YouTube-Tutorial-Code\\ECommerce\\ECommerce.Application\\UseCases\\Product\\Queries\\GetProductById\\GetProductByIdQueryValidator.cs",
+              "RelativeToolTip": "ECommerce.Application\\UseCases\\Product\\Queries\\GetProductById\\GetProductByIdQueryValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-20T14:40:29.095Z",
+              "WhenOpened": "2026-11-23T14:15:27.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GetProductByIdQueryHandler.cs",
+              "DocumentMoniker": "W:\\Software Projects\\My Projects\\Learning Projects\\SoftwareArchitecture-YouTube-Tutorial-Code\\ECommerce\\ECommerce.Application\\UseCases\\Product\\Queries\\GetProductById\\GetProductByIdQueryHandler.cs",
+              "RelativeDocumentMoniker": "ECommerce.Application\\UseCases\\Product\\Queries\\GetProductById\\GetProductByIdQueryHandler.cs",
+              "ToolTip": "W:\\Software Projects\\My Projects\\Learning Projects\\SoftwareArchitecture-YouTube-Tutorial-Code\\ECommerce\\ECommerce.Application\\UseCases\\Product\\Queries\\GetProductById\\GetProductByIdQueryHandler.cs",
+              "RelativeToolTip": "ECommerce.Application\\UseCases\\Product\\Queries\\GetProductById\\GetProductByIdQueryHandler.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAwBIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-23T14:13:31.488Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "BaseEntity.cs",
-              "DocumentMoniker": "W:\\Software Projects\\My Projects\\Learning Projects\\SoftwareArchitecture-YouTube-Tutorial-Code\\ECommerce\\ECommerce.Domain\\Common\\BaseEntity.cs",
-              "RelativeDocumentMoniker": "ECommerce.Domain\\Common\\BaseEntity.cs",
-              "ToolTip": "W:\\Software Projects\\My Projects\\Learning Projects\\SoftwareArchitecture-YouTube-Tutorial-Code\\ECommerce\\ECommerce.Domain\\Common\\BaseEntity.cs",
-              "RelativeToolTip": "ECommerce.Domain\\Common\\BaseEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA1AAAAAAAAAA==",
+              "Title": "GetProductByIdQuery.cs",
+              "DocumentMoniker": "W:\\Software Projects\\My Projects\\Learning Projects\\SoftwareArchitecture-YouTube-Tutorial-Code\\ECommerce\\ECommerce.Application\\UseCases\\Product\\Queries\\GetProductById\\GetProductByIdQuery.cs",
+              "RelativeDocumentMoniker": "ECommerce.Application\\UseCases\\Product\\Queries\\GetProductById\\GetProductByIdQuery.cs",
+              "ToolTip": "W:\\Software Projects\\My Projects\\Learning Projects\\SoftwareArchitecture-YouTube-Tutorial-Code\\ECommerce\\ECommerce.Application\\UseCases\\Product\\Queries\\GetProductById\\GetProductByIdQuery.cs",
+              "RelativeToolTip": "ECommerce.Application\\UseCases\\Product\\Queries\\GetProductById\\GetProductByIdQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-20T14:39:28.845Z",
+              "WhenOpened": "2026-11-23T14:13:31.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GetAllProductsQueryHandler.cs",
+              "DocumentMoniker": "W:\\Software Projects\\My Projects\\Learning Projects\\SoftwareArchitecture-YouTube-Tutorial-Code\\ECommerce\\ECommerce.Application\\UseCases\\Product\\Queries\\GetAllProducts\\GetAllProductsQueryHandler.cs",
+              "RelativeDocumentMoniker": "ECommerce.Application\\UseCases\\Product\\Queries\\GetAllProducts\\GetAllProductsQueryHandler.cs",
+              "ToolTip": "W:\\Software Projects\\My Projects\\Learning Projects\\SoftwareArchitecture-YouTube-Tutorial-Code\\ECommerce\\ECommerce.Application\\UseCases\\Product\\Queries\\GetAllProducts\\GetAllProductsQueryHandler.cs",
+              "RelativeToolTip": "ECommerce.Application\\UseCases\\Product\\Queries\\GetAllProducts\\GetAllProductsQueryHandler.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAwwAoAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-23T14:09:28.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetAllProductsQuery.cs",
+              "DocumentMoniker": "W:\\Software Projects\\My Projects\\Learning Projects\\SoftwareArchitecture-YouTube-Tutorial-Code\\ECommerce\\ECommerce.Application\\UseCases\\Product\\Queries\\GetAllProducts\\GetAllProductsQuery.cs",
+              "RelativeDocumentMoniker": "ECommerce.Application\\UseCases\\Product\\Queries\\GetAllProducts\\GetAllProductsQuery.cs",
+              "ToolTip": "W:\\Software Projects\\My Projects\\Learning Projects\\SoftwareArchitecture-YouTube-Tutorial-Code\\ECommerce\\ECommerce.Application\\UseCases\\Product\\Queries\\GetAllProducts\\GetAllProductsQuery.cs",
+              "RelativeToolTip": "ECommerce.Application\\UseCases\\Product\\Queries\\GetAllProducts\\GetAllProductsQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-23T14:09:28.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CreateProductCommandValidator.cs",
+              "DocumentMoniker": "W:\\Software Projects\\My Projects\\Learning Projects\\SoftwareArchitecture-YouTube-Tutorial-Code\\ECommerce\\ECommerce.Application\\UseCases\\Product\\Commands\\CreateProduct\\CreateProductCommandValidator.cs",
+              "RelativeDocumentMoniker": "ECommerce.Application\\UseCases\\Product\\Commands\\CreateProduct\\CreateProductCommandValidator.cs",
+              "ToolTip": "W:\\Software Projects\\My Projects\\Learning Projects\\SoftwareArchitecture-YouTube-Tutorial-Code\\ECommerce\\ECommerce.Application\\UseCases\\Product\\Commands\\CreateProduct\\CreateProductCommandValidator.cs",
+              "RelativeToolTip": "ECommerce.Application\\UseCases\\Product\\Commands\\CreateProduct\\CreateProductCommandValidator.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAUwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-23T14:03:08.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "W:\\Software Projects\\My Projects\\Learning Projects\\SoftwareArchitecture-YouTube-Tutorial-Code\\ECommerce\\ECommerce.Application\\Interfaces\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "ECommerce.Application\\Interfaces\\IUnitOfWork.cs",
+              "ToolTip": "W:\\Software Projects\\My Projects\\Learning Projects\\SoftwareArchitecture-YouTube-Tutorial-Code\\ECommerce\\ECommerce.Application\\Interfaces\\IUnitOfWork.cs",
+              "RelativeToolTip": "ECommerce.Application\\Interfaces\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-23T13:57:29.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GetProductDto.cs",
+              "DocumentMoniker": "W:\\Software Projects\\My Projects\\Learning Projects\\SoftwareArchitecture-YouTube-Tutorial-Code\\ECommerce\\ECommerce.Application\\DTOs\\ProductDTOs\\GetProductDto.cs",
+              "RelativeDocumentMoniker": "ECommerce.Application\\DTOs\\ProductDTOs\\GetProductDto.cs",
+              "ToolTip": "W:\\Software Projects\\My Projects\\Learning Projects\\SoftwareArchitecture-YouTube-Tutorial-Code\\ECommerce\\ECommerce.Application\\DTOs\\ProductDTOs\\GetProductDto.cs",
+              "RelativeToolTip": "ECommerce.Application\\DTOs\\ProductDTOs\\GetProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-23T13:44:00.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UpdateProductDto.cs",
+              "DocumentMoniker": "W:\\Software Projects\\My Projects\\Learning Projects\\SoftwareArchitecture-YouTube-Tutorial-Code\\ECommerce\\ECommerce.Application\\DTOs\\ProductDTOs\\UpdateProductDto.cs",
+              "RelativeDocumentMoniker": "ECommerce.Application\\DTOs\\ProductDTOs\\UpdateProductDto.cs",
+              "ToolTip": "W:\\Software Projects\\My Projects\\Learning Projects\\SoftwareArchitecture-YouTube-Tutorial-Code\\ECommerce\\ECommerce.Application\\DTOs\\ProductDTOs\\UpdateProductDto.cs",
+              "RelativeToolTip": "ECommerce.Application\\DTOs\\ProductDTOs\\UpdateProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-23T13:43:08.322Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "W:\\Software Projects\\My Projects\\Learning Projects\\SoftwareArchitecture-YouTube-Tutorial-Code\\ECommerce\\ECommerse.API\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "ECommerse.API\\Controllers\\HomeController.cs",
-              "ToolTip": "W:\\Software Projects\\My Projects\\Learning Projects\\SoftwareArchitecture-YouTube-Tutorial-Code\\ECommerce\\ECommerse.API\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "ECommerse.API\\Controllers\\HomeController.cs",
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "W:\\Software Projects\\My Projects\\Learning Projects\\SoftwareArchitecture-YouTube-Tutorial-Code\\ECommerce\\ECommerce.Application\\Interfaces\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "ECommerce.Application\\Interfaces\\IProductRepository.cs",
+              "ToolTip": "W:\\Software Projects\\My Projects\\Learning Projects\\SoftwareArchitecture-YouTube-Tutorial-Code\\ECommerce\\ECommerce.Application\\Interfaces\\IProductRepository.cs",
+              "RelativeToolTip": "ECommerce.Application\\Interfaces\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-14T13:33:11.104Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ECommerce.API.csproj",
-              "DocumentMoniker": "W:\\Software Projects\\My Projects\\Learning Projects\\SoftwareArchitecture-YouTube-Tutorial-Code\\ECommerce\\ECommerse.API\\ECommerce.API.csproj",
-              "RelativeDocumentMoniker": "ECommerse.API\\ECommerce.API.csproj",
-              "ToolTip": "W:\\Software Projects\\My Projects\\Learning Projects\\SoftwareArchitecture-YouTube-Tutorial-Code\\ECommerce\\ECommerse.API\\ECommerce.API.csproj",
-              "RelativeToolTip": "ECommerse.API\\ECommerce.API.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-11-14T13:26:37.542Z"
+              "WhenOpened": "2026-11-23T13:40:24.027Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "Program.cs",
-              "DocumentMoniker": "W:\\Software Projects\\My Projects\\Learning Projects\\SoftwareArchitecture-YouTube-Tutorial-Code\\ECommerce\\ECommerse.API\\Program.cs",
-              "RelativeDocumentMoniker": "ECommerse.API\\Program.cs",
-              "ToolTip": "W:\\Software Projects\\My Projects\\Learning Projects\\SoftwareArchitecture-YouTube-Tutorial-Code\\ECommerce\\ECommerse.API\\Program.cs",
-              "RelativeToolTip": "ECommerse.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAuAAAAAAAAAA==",
+              "Title": "CreateProductCommandHandler.cs",
+              "DocumentMoniker": "W:\\Software Projects\\My Projects\\Learning Projects\\SoftwareArchitecture-YouTube-Tutorial-Code\\ECommerce\\ECommerce.Application\\UseCases\\Product\\Commands\\CreateProduct\\CreateProductCommandHandler.cs",
+              "RelativeDocumentMoniker": "ECommerce.Application\\UseCases\\Product\\Commands\\CreateProduct\\CreateProductCommandHandler.cs",
+              "ToolTip": "W:\\Software Projects\\My Projects\\Learning Projects\\SoftwareArchitecture-YouTube-Tutorial-Code\\ECommerce\\ECommerce.Application\\UseCases\\Product\\Commands\\CreateProduct\\CreateProductCommandHandler.cs",
+              "RelativeToolTip": "ECommerce.Application\\UseCases\\Product\\Commands\\CreateProduct\\CreateProductCommandHandler.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA3wBMAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-14T13:20:32.849Z"
+              "WhenOpened": "2026-11-23T13:36:40.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CreateProductDto.cs",
+              "DocumentMoniker": "W:\\Software Projects\\My Projects\\Learning Projects\\SoftwareArchitecture-YouTube-Tutorial-Code\\ECommerce\\ECommerce.Application\\DTOs\\ProductDTOs\\CreateProductDto.cs",
+              "RelativeDocumentMoniker": "ECommerce.Application\\DTOs\\ProductDTOs\\CreateProductDto.cs",
+              "ToolTip": "W:\\Software Projects\\My Projects\\Learning Projects\\SoftwareArchitecture-YouTube-Tutorial-Code\\ECommerce\\ECommerce.Application\\DTOs\\ProductDTOs\\CreateProductDto.cs",
+              "RelativeToolTip": "ECommerce.Application\\DTOs\\ProductDTOs\\CreateProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-23T13:05:27.306Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "W:\\Software Projects\\My Projects\\Learning Projects\\SoftwareArchitecture-YouTube-Tutorial-Code\\ECommerce\\ECommerse.API\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "ECommerse.API\\Properties\\launchSettings.json",
-              "ToolTip": "W:\\Software Projects\\My Projects\\Learning Projects\\SoftwareArchitecture-YouTube-Tutorial-Code\\ECommerce\\ECommerse.API\\Properties\\launchSettings.json",
-              "RelativeToolTip": "ECommerse.API\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAYwBUAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-11-14T13:19:31.457Z"
+              "Title": "CreateProductCommand.cs",
+              "DocumentMoniker": "W:\\Software Projects\\My Projects\\Learning Projects\\SoftwareArchitecture-YouTube-Tutorial-Code\\ECommerce\\ECommerce.Application\\UseCases\\Product\\Commands\\CreateProduct\\CreateProductCommand.cs",
+              "RelativeDocumentMoniker": "ECommerce.Application\\UseCases\\Product\\Commands\\CreateProduct\\CreateProductCommand.cs",
+              "ToolTip": "W:\\Software Projects\\My Projects\\Learning Projects\\SoftwareArchitecture-YouTube-Tutorial-Code\\ECommerce\\ECommerce.Application\\UseCases\\Product\\Commands\\CreateProduct\\CreateProductCommand.cs",
+              "RelativeToolTip": "ECommerce.Application\\UseCases\\Product\\Commands\\CreateProduct\\CreateProductCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-23T13:02:58.618Z",
+              "EditorCaption": ""
             }
           ]
         }

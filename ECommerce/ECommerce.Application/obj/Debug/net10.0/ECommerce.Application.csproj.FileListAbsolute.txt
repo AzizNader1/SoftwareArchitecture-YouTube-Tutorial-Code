@@ -13,3 +13,4 @@ W:\Software Projects\My Projects\Learning Projects\SoftwareArchitecture-YouTube-
 W:\Software Projects\My Projects\Learning Projects\SoftwareArchitecture-YouTube-Tutorial-Code\ECommerce\ECommerce.Application\obj\Debug\net10.0\refint\ECommerce.Application.dll
 W:\Software Projects\My Projects\Learning Projects\SoftwareArchitecture-YouTube-Tutorial-Code\ECommerce\ECommerce.Application\obj\Debug\net10.0\ECommerce.Application.pdb
 W:\Software Projects\My Projects\Learning Projects\SoftwareArchitecture-YouTube-Tutorial-Code\ECommerce\ECommerce.Application\obj\Debug\net10.0\ref\ECommerce.Application.dll
+W:\Software Projects\My Projects\Learning Projects\SoftwareArchitecture-YouTube-Tutorial-Code\ECommerce\ECommerce.Application\obj\Debug\net10.0\ECommerce.Application.sourcelink.json

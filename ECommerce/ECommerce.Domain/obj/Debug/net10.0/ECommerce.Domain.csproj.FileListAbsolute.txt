@@ -9,4 +9,4 @@ W:\Software Projects\My Projects\Learning Projects\SoftwareArchitecture-YouTube-
 W:\Software Projects\My Projects\Learning Projects\SoftwareArchitecture-YouTube-Tutorial-Code\ECommerce\ECommerce.Domain\obj\Debug\net10.0\refint\ECommerce.Domain.dll
 W:\Software Projects\My Projects\Learning Projects\SoftwareArchitecture-YouTube-Tutorial-Code\ECommerce\ECommerce.Domain\obj\Debug\net10.0\ECommerce.Domain.pdb
 W:\Software Projects\My Projects\Learning Projects\SoftwareArchitecture-YouTube-Tutorial-Code\ECommerce\ECommerce.Domain\obj\Debug\net10.0\ref\ECommerce.Domain.dll
-W:\Software Projects\My Projects\Learning Projects\SoftwareArchitecture-YouTube-Tutorial-Code\ECommerce\ECommerce.Domain\obj\Debug\net10.0\ECommerc.8ED50DBB.Up2Date
+W:\Software Projects\My Projects\Learning Projects\SoftwareArchitecture-YouTube-Tutorial-Code\ECommerce\ECommerce.Domain\obj\Debug\net10.0\ECommerce.Domain.sourcelink.json

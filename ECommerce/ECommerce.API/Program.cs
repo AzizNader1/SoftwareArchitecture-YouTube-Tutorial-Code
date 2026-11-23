@@ -1,3 +1,5 @@
+using ECommerce.Application;
+
 namespace ECommerce.API
 {
     public class Program
@@ -8,6 +10,9 @@ namespace ECommerce.API
 
             // Add services to the container.
             builder.Services.AddControllers();
+
+            // Add Application Services (MediatR, FluentValidation, Pipeline Behaviors)
+            builder.Services.AddApplicationServices();
 
             // Add Swagger
             builder.Services.AddEndpointsApiExplorer();
