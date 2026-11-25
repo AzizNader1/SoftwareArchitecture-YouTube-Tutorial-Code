@@ -1,4 +1,5 @@
 using ECommerce.Application;
+using ECommerce.Infrastructure;
 
 namespace ECommerce.API
 {
@@ -11,8 +12,11 @@ namespace ECommerce.API
             // Add services to the container.
             builder.Services.AddControllers();
 
-            // Add Application Services (MediatR, FluentValidation, Pipeline Behaviors)
+            // 1. Add Application Services (MediatR, FluentValidation, Pipeline Behaviors)
             builder.Services.AddApplicationServices();
+
+            // 2. Add Infrastructure Services (DbContexts, Repositories, Unit of Work)
+            builder.Services.AddInfrastructureServices(builder.Configuration);
 
             // Add Swagger
             builder.Services.AddEndpointsApiExplorer();

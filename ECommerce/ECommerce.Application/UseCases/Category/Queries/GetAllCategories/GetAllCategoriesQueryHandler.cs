@@ -1,27 +1,35 @@
+using ECommerce.Application.Common.Models;
 using ECommerce.Application.DTOs.CategoryDTOs;
-using ECommerce.Application.Interfaces;
+using ECommerce.Application.Interfaces.ReadInterfaces;
 using MediatR;
 
 namespace ECommerce.Application.UseCases.Category.Queries.GetAllCategories
 {
-    public sealed class GetAllCategoriesQueryHandler : IRequestHandler<GetAllCategoriesQuery, IEnumerable<GetCategoryDto>>
+    public sealed class GetAllCategoriesQueryHandler : IRequestHandler<GetAllCategoriesQuery, PaginatedList<GetCategoryDto>>
     {
-        private readonly IUnitOfWork _unitOfWork;
+        private readonly ICategoryReadRepository _categoryReadRepository;
 
-        public GetAllCategoriesQueryHandler(IUnitOfWork unitOfWork)
+        public GetAllCategoriesQueryHandler(ICategoryReadRepository categoryReadRepository)
         {
-            _unitOfWork = unitOfWork;
+            _categoryReadRepository = categoryReadRepository;
         }
 
-        public async Task<IEnumerable<GetCategoryDto>> Handle(GetAllCategoriesQuery request, CancellationToken cancellationToken)
+        public async Task<PaginatedList<GetCategoryDto>> Handle(GetAllCategoriesQuery request, CancellationToken cancellationToken)
         {
-            var categories = await _unitOfWork.CategoryRepository.GetAll();
-            if (categories == null || !categories.Any())
+            var pagedCategories = await _categoryReadRepository.GetAllAsync(request.PageNumber, request.PageSize, cancellationToken);
+            if (pagedCategories == null || !pagedCategories.Items.Any())
             {
-                return Enumerable.Empty<GetCategoryDto>();
+                return new PaginatedList<GetCategoryDto>(new List<GetCategoryDto>(), 0, request.PageNumber, request.PageSize);
             }
 
-            return categories;
+            var dtos = pagedCategories.Items.Select(c => new GetCategoryDto
+            {
+                Id = c.Id,
+                Name = c.Name,
+                Description = c.Description
+            }).ToList();
+
+            return new PaginatedList<GetCategoryDto>(dtos, pagedCategories.TotalCount, pagedCategories.PageNumber, pagedCategories.PageSize);
         }
     }
 }

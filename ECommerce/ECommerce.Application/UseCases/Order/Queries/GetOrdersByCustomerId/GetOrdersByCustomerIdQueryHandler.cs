@@ -1,21 +1,21 @@
 using ECommerce.Application.DTOs.OrderDTOs;
-using ECommerce.Application.Interfaces;
+using ECommerce.Application.Interfaces.ReadInterfaces;
 using MediatR;
 
 namespace ECommerce.Application.UseCases.Order.Queries.GetOrdersByCustomerId
 {
     public sealed class GetOrdersByCustomerIdQueryHandler : IRequestHandler<GetOrdersByCustomerIdQuery, IEnumerable<GetOrderDto>>
     {
-        private readonly IUnitOfWork _unitOfWork;
+        private readonly IOrderReadRepository _orderReadRepository;
 
-        public GetOrdersByCustomerIdQueryHandler(IUnitOfWork unitOfWork)
+        public GetOrdersByCustomerIdQueryHandler(IOrderReadRepository orderReadRepository)
         {
-            _unitOfWork = unitOfWork;
+            _orderReadRepository = orderReadRepository;
         }
 
         public async Task<IEnumerable<GetOrderDto>> Handle(GetOrdersByCustomerIdQuery request, CancellationToken cancellationToken)
         {
-            var orders = await _unitOfWork.OrderRepository.GetByCustomerId(request.CustomerId);
+            var orders = await _orderReadRepository.GetOrdersByCustomerIdAsync(request.CustomerId, cancellationToken);
             if (orders == null || !orders.Any())
             {
                 return Enumerable.Empty<GetOrderDto>();

@@ -24,8 +24,8 @@ namespace ECommerce.Application.UseCases.Category.Commands.CreateCategory
             };
 
             // 3. Call the repository to create the category
-            _unitOfWork.CategoryRepository.Create(category);
-            await _unitOfWork.SaveChangesAsync();
+            await _unitOfWork.CategoryWriteRepository.AddAsync(category, cancellationToken);
+            await _unitOfWork.SaveChangesAsync(cancellationToken);
 
             // 4. Return the ID of the created category
             return category.Id;

@@ -1,27 +1,37 @@
+using ECommerce.Application.Common.Models;
 using ECommerce.Application.DTOs.CustomerDTOs;
-using ECommerce.Application.Interfaces;
+using ECommerce.Application.Interfaces.ReadInterfaces;
 using MediatR;
 
 namespace ECommerce.Application.UseCases.Customer.Queries.GetAllCustomers
 {
-    public sealed class GetAllCustomersQueryHandler : IRequestHandler<GetAllCustomersQuery, IEnumerable<GetCustomerDto>>
+    public sealed class GetAllCustomersQueryHandler : IRequestHandler<GetAllCustomersQuery, PaginatedList<GetCustomerDto>>
     {
-        private readonly IUnitOfWork _unitOfWork;
+        private readonly ICustomerReadRepository _customerReadRepository;
 
-        public GetAllCustomersQueryHandler(IUnitOfWork unitOfWork)
+        public GetAllCustomersQueryHandler(ICustomerReadRepository customerReadRepository)
         {
-            _unitOfWork = unitOfWork;
+            _customerReadRepository = customerReadRepository;
         }
 
-        public async Task<IEnumerable<GetCustomerDto>> Handle(GetAllCustomersQuery request, CancellationToken cancellationToken)
+        public async Task<PaginatedList<GetCustomerDto>> Handle(GetAllCustomersQuery request, CancellationToken cancellationToken)
         {
-            var customers = await _unitOfWork.CustomerRepository.GetAll();
-            if (customers == null || !customers.Any())
+            var pagedCustomers = await _customerReadRepository.GetAllAsync(request.PageNumber, request.PageSize, cancellationToken);
+            if (pagedCustomers == null || !pagedCustomers.Items.Any())
             {
-                return Enumerable.Empty<GetCustomerDto>();
+                return new PaginatedList<GetCustomerDto>(new List<GetCustomerDto>(), 0, request.PageNumber, request.PageSize);
             }
 
-            return customers;
+            var dtos = pagedCustomers.Items.Select(c => new GetCustomerDto
+            {
+                Id = c.Id,
+                FirstName = c.FirstName,
+                LastName = c.LastName,
+                Email = c.Email,
+                PhoneNumber = c.PhoneNumber
+            }).ToList();
+
+            return new PaginatedList<GetCustomerDto>(dtos, pagedCustomers.TotalCount, pagedCustomers.PageNumber, pagedCustomers.PageSize);
         }
     }
 }

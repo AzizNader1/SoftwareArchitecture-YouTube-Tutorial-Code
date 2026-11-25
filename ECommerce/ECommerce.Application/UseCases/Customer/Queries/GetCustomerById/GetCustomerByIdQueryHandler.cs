@@ -1,27 +1,35 @@
+using ECommerce.Application.Common.Exceptions;
 using ECommerce.Application.DTOs.CustomerDTOs;
-using ECommerce.Application.Interfaces;
+using ECommerce.Application.Interfaces.ReadInterfaces;
 using MediatR;
 
 namespace ECommerce.Application.UseCases.Customer.Queries.GetCustomerById
 {
     public sealed class GetCustomerByIdQueryHandler : IRequestHandler<GetCustomerByIdQuery, GetCustomerDto>
     {
-        private readonly IUnitOfWork _unitOfWork;
+        private readonly ICustomerReadRepository _customerReadRepository;
 
-        public GetCustomerByIdQueryHandler(IUnitOfWork unitOfWork)
+        public GetCustomerByIdQueryHandler(ICustomerReadRepository customerReadRepository)
         {
-            _unitOfWork = unitOfWork;
+            _customerReadRepository = customerReadRepository;
         }
 
         public async Task<GetCustomerDto> Handle(GetCustomerByIdQuery request, CancellationToken cancellationToken)
         {
-            var customer = await _unitOfWork.CustomerRepository.GetById(request.Id);
+            var customer = await _customerReadRepository.GetByIdAsync(request.Id, cancellationToken);
             if (customer == null)
             {
-                return null!;
+                throw new NotFoundException(nameof(Domain.Entities.Customer), request.Id);
             }
 
-            return customer;
+            return new GetCustomerDto
+            {
+                Id = customer.Id,
+                FirstName = customer.FirstName,
+                LastName = customer.LastName,
+                Email = customer.Email,
+                PhoneNumber = customer.PhoneNumber
+            };
         }
     }
 }

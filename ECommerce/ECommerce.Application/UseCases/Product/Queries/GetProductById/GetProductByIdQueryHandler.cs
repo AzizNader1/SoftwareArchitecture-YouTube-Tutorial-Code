@@ -1,25 +1,34 @@
-﻿using ECommerce.Application.DTOs.ProductDTOs;
-using ECommerce.Application.Interfaces;
+using ECommerce.Application.Common.Exceptions;
+using ECommerce.Application.DTOs.ProductDTOs;
+using ECommerce.Application.Interfaces.ReadInterfaces;
 using MediatR;
 
 namespace ECommerce.Application.UseCases.Product.Queries.GetProductById
 {
     public sealed class GetProductByIdQueryHandler : IRequestHandler<GetProductByIdQuery, GetProductDto>
     {
-        private readonly IUnitOfWork _unitOfWork;
-        public GetProductByIdQueryHandler(IUnitOfWork unitOfWork)
+        private readonly IProductReadRepository _productReadRepository;
+        public GetProductByIdQueryHandler(IProductReadRepository productReadRepository)
         {
-            _unitOfWork = unitOfWork;
+            _productReadRepository = productReadRepository;
         }
         public async Task<GetProductDto> Handle(GetProductByIdQuery request, CancellationToken cancellationToken)
         {
-            var product = await _unitOfWork.ProductRepository.GetById(request.Id);
+            var product = await _productReadRepository.GetByIdAsync(request.Id, cancellationToken);
             if (product == null)
             {
-                return null!;
+                throw new NotFoundException(nameof(Domain.Entities.Product), request.Id);
             }
 
-            return product;
+            return new GetProductDto
+            {
+                Id = product.Id,
+                Name = product.Name,
+                Description = product.Description ?? string.Empty,
+                Price = product.Price,
+                StockQuantity = product.StockQuantity,
+                CategoryId = product.CategoryId
+            };
         }
     }
 }

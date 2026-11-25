@@ -1,27 +1,33 @@
+using ECommerce.Application.Common.Exceptions;
 using ECommerce.Application.DTOs.CategoryDTOs;
-using ECommerce.Application.Interfaces;
+using ECommerce.Application.Interfaces.ReadInterfaces;
 using MediatR;
 
 namespace ECommerce.Application.UseCases.Category.Queries.GetCategoryById
 {
     public sealed class GetCategoryByIdQueryHandler : IRequestHandler<GetCategoryByIdQuery, GetCategoryDto>
     {
-        private readonly IUnitOfWork _unitOfWork;
+        private readonly ICategoryReadRepository _categoryReadRepository;
 
-        public GetCategoryByIdQueryHandler(IUnitOfWork unitOfWork)
+        public GetCategoryByIdQueryHandler(ICategoryReadRepository categoryReadRepository)
         {
-            _unitOfWork = unitOfWork;
+            _categoryReadRepository = categoryReadRepository;
         }
 
         public async Task<GetCategoryDto> Handle(GetCategoryByIdQuery request, CancellationToken cancellationToken)
         {
-            var category = await _unitOfWork.CategoryRepository.GetById(request.Id);
+            var category = await _categoryReadRepository.GetByIdAsync(request.Id, cancellationToken);
             if (category == null)
             {
-                return null!;
+                throw new NotFoundException(nameof(Domain.Entities.Category), request.Id);
             }
 
-            return category;
+            return new GetCategoryDto
+            {
+                Id = category.Id,
+                Name = category.Name,
+                Description = category.Description
+            };
         }
     }
 }
